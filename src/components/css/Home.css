@@ -1,0 +1,19 @@
+.position {
+    transform: translateY(10px);
+    opacity: 1;
+    animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+        /* Start and end at the original position */
+    }
+
+    75% {
+        transform: translateY(-10px);
+        /* Move up by 10px at the midpoint */
+    }
+}
