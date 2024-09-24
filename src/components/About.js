@@ -17,18 +17,18 @@ function About() {
                                     alt="my-image"
                                     loading="lazy"
                                     decoding="async"
-                                    className="w-96 lg:w-1/2 mx-auto sm:m-0 p-3 mt-5 mb-5 border object-cover"
+                                    className="w-96 lg:w-1/2 h-auto mx-auto sm:m-0 p-3 mt-5 mb-5 border object-cover"
                                     src={image}
                                 />
                             </div>
                         </div>
 
                         {/* Text Section */}
-                        <div className="w-full lg:w-1/2 ">
+                        <div className="w-full lg:w-1/2 ms-6 pb-5 pt-5">
                             <div className="typo-box lg:ms-8">
                                 <h3 className="text-3xl font-semibold text-white">Akshay Rokade</h3>
                                 <h5 className="text-xl font-medium text-white mt-2">
-                                    Web Developer (MERN & MEAN Stack Developer)
+                                    Web Developer (MERN & MEAN)
                                 </h5>
                                 <p className="text-gray-600 mt-4">
                                     I design and develop services for customers of all sizes, specializing in creating stylish, modern
@@ -59,7 +59,7 @@ function About() {
                                         <div className="mb-4 flex">
                                             <label className="font-semibold text-white">E-mail</label>
                                             <span className='ms-4'>|</span>
-                                            <p className="text-gray-500 ms-4">rokadeakshay5555@gmail.com</p>
+                                            <p className="text-gray-500 ms-4">rokadeakshay5555<br className='sm:hidden'></br>@gmail.com</p>
                                         </div>
                                         <div className="mb-4 flex">
                                             <label className="font-semibold text-white">Phone</label>
@@ -69,16 +69,16 @@ function About() {
                                         <div className="mb-4 flex">
                                             <label className="font-semibold text-white">Github</label>
                                             <span className='ms-3'>|</span>
-                                            <p className="text-gray-500 ms-3">rokadeakshay5555@gmail.com</p>
+                                            <p className="text-gray-500 ms-3">rokadeakshay5555<br className='sm:hidden'></br>@gmail.com</p>
                                         </div>
 
                                     </div>
                                 </div>
 
                                 <div className="mt-6 text-center">
-                                    <button class="btn-17">
-                                        <span class="text-container">
-                                            <span class="text" download={Resume}><a href={Resume} download="">Download CV</a></span>
+                                    <button className="btn-17">
+                                        <span className="text-container">
+                                            <span className="text" download={Resume}><a href={Resume} download="">Download CV</a></span>
                                         </span>
                                     </button>
 
